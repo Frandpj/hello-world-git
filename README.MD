@@ -27,8 +27,8 @@ Underline 2
 1. Esto es un objeto.
 2. Esto es un objeto.
 3. Esto es un objeto.
-## Desordenadas
 
+## Desordenadas
 - Esto es un objeto.
 - Esto es un objeto.
 - Esto es un objeto.
@@ -38,4 +38,47 @@ Underline 2
 - [Esto es un link al index](index.html)
 
 # Imagenes
-![Logo Github](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Logo Github](https://www.webbyline.com/site/wp-content/plugins/screets-lc/assets/img/night-bird-logo-200px.png)
+
+# Code Snippets
+- Jighlightjs es la libreria que vamos a utilizar.
+- Resaltar código en JSON.
+```JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+- Resaltar código en JSON.
+```JAVASCRIPT
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+
+```
