@@ -86,3 +86,10 @@ export  $initHighlight;
 | Nombre | Apellido | Documento |
 | ------ | -------- | --------- |
 | Raul | Jiménez | 273687983W |
+
+# Citas
+Esto es un texto referente a una cita que pondremos debajo:
+> Esto es una cita.
+
+Esto es una cita que no se relaciona con la cita anterior con dos intros por medio.
+> Esto es otra cita.
