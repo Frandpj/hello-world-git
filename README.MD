@@ -91,5 +91,18 @@ export  $initHighlight;
 Esto es un texto referente a una cita que pondremos debajo:
 > Esto es una cita.
 
-Esto es una cita que no se relaciona con la cita anterior con dos intros por medio.
+Esto es una cita que no se relaciona con la cita anterior con dos enter por medio.
 > Esto es otra cita.
+
+# Lineas divisoras
+Esto es un texto que será dividido por guiones, se debe de separar por dos enter.
+
+---
+Esto es otro texto dividido por asteriscos.
+
+***
+Esto es otro texto dividido por guiones bajos.
+
+___
+
+
