@@ -105,4 +105,9 @@ Esto es otro texto dividido por guiones bajos.
 
 ___
 
+# Saltos de línea (doble enter)
+Primer párrafo.
 
+Segundo párrafo.
+
+Tercer párrafo.
