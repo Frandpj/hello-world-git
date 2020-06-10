@@ -80,5 +80,9 @@ function $initHighlight(block, cls) {
 }
 
 export  $initHighlight;
-
 ```
+
+# Tabla
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Raul | Jiménez | 273687983W |
